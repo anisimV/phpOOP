@@ -8,5 +8,4 @@ class Car
     public $speed = 180;
     var $brand;
 
-    
 }
