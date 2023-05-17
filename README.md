@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHPOOP</title>
 </head>
 <body>
     <div>
-        <ul class = "day1">
+        <ul class = "lecture1">
             <b><p>Класс/объект:</p></b>
                 <ul>
                     <li>Каждому классу — свой файл</li>
@@ -17,7 +16,7 @@
                     <li>Динамические свойства объекта(не рекомендуется)</li>
                 </ul>
         </ul>
-        <ul class = "day2">
+        <ul class = "lecture2">
             <b><p>Методы объекта:</p></b>
                 <ul>
                     <li>Создал класс <b>Dogs</b></li>
@@ -37,6 +36,16 @@
                             <li><b>'w+</b> файл открывается для записи с возможностью чтения</li>
                             <li><b>'a'</b> файл открывается для записи.</li> 
                         </ul>
+                        <ul>
+                            <b><p>Сатистические свойства/методы</p></b>
+                        </ul>
+                        <ul>
+                            <li>Потренировался. Создал класс <b>house<b></li>
+                            <li>Статические св-ва / методы и константы принодлежат классу, а не объекту</li>
+                            <li>Если вне класса - обращаться через имя класса</li>
+                            <li>Если внутри класса то через <b>self::<b></li>
+                        </ul>
+                </ul>
         </ul>
     </div>
 </body>
