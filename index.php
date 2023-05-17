@@ -13,6 +13,8 @@
             <li><a href="/OOP/objectMethods/index.php">objectMethods</a></li>
             <li><a href="/OOP/ObjectProperties/index.php">ObjectProperties</a> / <a href="/OOP/ObjectProperties/practic/index.php">Практика</a></li>
             <li><a href="/OOP/StatisticsMethods/index.php">Статические свойства и методы</a></li>
+            <li><a href="/OOP/Inheritance/index.php">Наследование</a></li>
+            <li><a href="/OOP/Inheritance/Inheritance2/">Наследование2</a></li>
         </ul>
     </div>
 </body>
