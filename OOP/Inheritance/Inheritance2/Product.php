@@ -4,6 +4,10 @@ class Product
 {
     public $name;
     public $price;
+//    public $discount = 0;
+    private $discount = 0;
+//    protected $discount = 0;
+
 
     public function __construct($name, $price)
     {
@@ -15,7 +19,9 @@ class Product
     {
         return "<hr><b>О товаре:</b><br>
             Наименование: {$this->name}<br>
-            Цена: {$this->price}<br>";
+            Цена: {$this->getPrice()}<br>
+            Прежняя цена: {$this->price}<br>";
+            
     }
     
     public function getName()
@@ -25,6 +31,18 @@ class Product
 
     public function getPrice()
     {
-        return $this->price;
+        return $this->price - ($this->discount / 100 * $this->price);
+    }
+
+    public function getDiscount(): int
+    {
+        return $this->discount;
+    }
+
+    public function setDiscount(int $discount)
+    {
+        $this->discount = $discount;
+
+        return $this;
     }
 }
